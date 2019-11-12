@@ -9,4 +9,29 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url(./images/weather-image_141175.jpg);
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+}
+
+.weather {
+  font-size: 4rem;
+  height: 9rem;
+  margin-top: 3rem;
+}
+
+.weather-results {
+  font-size: 3rem;
+}
+
+.search-button {
+  height: 2rem;
+  width: 5rem;
+  border-radius: 10%;
+  background-color: whitesmoke;
+  border-color: red;
+  font-size: 1rem;
 }
